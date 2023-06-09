@@ -1,0 +1,36 @@
+div.logo{
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    width: 300px;
+    border: 1px solid #333;
+    border-radius: 30px;
+    box-shadow: 0px 0px 55px #c5e7ef;
+    padding:-30px -10px;
+    
+}
+
+ul.navbar {
+        position:relative;
+        list-style-type: none;
+        margin: 0;
+        padding: 10px 50px;
+        left : 300px;
+        top: -60px;
+
+}
+
+li.navbar {
+        display: block;
+        display: inline;
+        background-color: #acd9e1;
+        padding: 10px 36px;
+        border-radius: 25px;
+        border: 2px solid #ccc0cb;
+}
+
+li.navbar:hover {
+    background-color: #555;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+  }
