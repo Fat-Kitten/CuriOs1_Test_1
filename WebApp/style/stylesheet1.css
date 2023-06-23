@@ -2,12 +2,27 @@ div.logo{
     font-family: "Sofia", sans-serif;
     text-align: center;
     width: 300px;
-    border: 1px solid #333;
+    border:transparent;
     border-radius: 30px;
-    box-shadow: 0px 0px 55px #c5e7ef;
+    box-shadow: 0px 0px 0px #c5e7ef;
     padding:-30px -10px;
-    
+    animation-name: example;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    background-color: #83e2f7;
+    color:#333
 }
+body{
+        background-color: #333;
+}
+
+@keyframes example {
+0% {box-shadow: 0px 0px 0px #7fddf2; background-color: #333; color:aliceblue}
+50% {box-shadow: 0px 0px 50px #83e2f7; background-color: #97e1f0; color:black}
+100% {box-shadow: 0px 0px 0px #83e2f7;background-color: #333;color:antiquewhite}
+              }
+
+
 
 ul.navbar {
         position:relative;
@@ -34,3 +49,86 @@ li.navbar:hover {
     border-radius: 25px;
     border: 2px solid #73AD21;
   }
+
+label{
+        color: aliceblue;
+}  
+
+div.create_course{
+        padding: 10px;
+        position: relative;
+        right: -200px;
+        width: 900px;
+        border:#83e2f7;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 30px;
+        color:#333
+}
+
+input[type=text] {
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 10px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        align-items: center;
+      }
+
+      .form_inp_comd{
+        position: relative;
+        left: 45px;
+      }
+
+      .form_inp_cn{
+        position: relative;
+        left: 143px;
+      }
+
+      .form_inp_in{
+        position: relative;
+        left: 128px;
+      }
+
+      .form_inp_cd{
+        position: relative;
+        left: 110px;
+      }
+      div.courses{
+        border:#83e2f7;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 30px;
+    }
+div.courseSpecific{
+    display: inline-block;
+    padding: 10px 10px;
+    border:#83e2f7;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 30px;
+    width:400px;
+    height:500px;
+}
+div.img{
+  margin-left: auto;
+  margin-right: auto;
+  border:#83e2f7;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  width:360px;
+  height:300px;
+}
+
+div.courseInfo{
+  margin-left: auto;
+  margin-right: auto;
+  border:#83e2f7;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  width:360px;
+  height:190px;
+}
