@@ -1,3 +1,0 @@
-{
-"Microprocessor":{"name":"John", "duration":30, "description":"----------"}
-}
