@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CuriOs1</title>
+        <link rel="stylesheet" href="style/stylesheet1.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <script src="script/main.js" defer></script>
+        <script src="script/on_createCourse.js" defer></script>
+    </head>
+    <body>
+        <div class = "logo"><h1>CuriOs1</h1></div>
+       
+        <div class = "navbar">
+            <ul class = "navbar">
+                <li class="navbar">About</li>
+                <li id="navbarCourse" class="navbar"><a href=course_page.html>Courses</a></li>
+                <li class="navbar">Create Courses</li>
+                <li class="navbar">How to?</li>
+            </ul>
+        </div>
+        <div class = "footer"></div>
+        <div class = "create_course">
+            <form>
+                <label for="commencement_date" class="form_inp_comdl">Course commencement date:</label>
+                <input type="date" id="comm_date" name="commencement_date" class="form_inp_comd"><br>
+                <label for="course_name" class="form_inp_cnl">Course name:</label>
+                <input type="text" id="course_name" name="course_name" class="form_inp_cn"><br>
+                <label for="instructor_name" class="form_inp_inl">Instructor name:</label>
+                <input type="text" id="instructor_name" class="form_inp_in"><br><br>
+                <label for="course_description" class="form_inp_cdl">Course description:</label>
+                
+                <textarea name="course_description" id="<course_description>" class="form_inp_cd"></textarea><br><br>
+                <label for="course_thumbnail" class="form_inp_thnail">Course thumbnail:</label>
+                <input type="file" id="course_thumbnail" class="form_inp_thnail" accept="image/png, image/jpeg"><br><br>
+                <input type="submit" value="Submit">
+            </form>   
+        </div>
+    </body>
+</html>
