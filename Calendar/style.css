@@ -1,0 +1,98 @@
+
+ul {list-style-type: none;}
+
+.calender{ 
+  border-style: solid;
+  border-color: #081d12;
+  border-radius: 5px;
+  border-width: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  width:15%;
+}
+.month {
+  
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+.date {
+  
+  width: 100%;
+}
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  position:relative;
+  left:20%;
+  top:-9px;
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  position:relative;
+  right:20%;
+  top:-9px;
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 10px;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 5px 5px;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:15px;
+  color: #d20404;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
